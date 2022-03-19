@@ -8,7 +8,7 @@ body{
     margin: 0;
     font-family: Arial;
     font-size: 17px;
-    background-color: blue;
+    background-color: green;
 }
 #myVideo {
     position: fixed;
@@ -19,7 +19,7 @@ body{
 }
 @media screen and (min-height: 5in) {
     #myVideo{
-        height: 20%;
+        height: 15%;
     }
   }
 .wmain{
