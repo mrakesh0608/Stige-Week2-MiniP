@@ -1,3 +1,5 @@
 # Stige-Week2-MiniP
 
-https://mrakesh-backv.herokuapp.com/
+[go](https://mrakesh-backv.herokuapp.com/){:target="_blank" rel="noopener"}
+
+
