@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+/* Main CSS without Menu */
+*{
+    box-sizing: border-box;
+    font-family: Quintessential , Verdana;
+}
+body{
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+    background-color: gray;
+}
+#myVideo {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+@media screen and (min-height: 5in) {
+    #myVideo{
+        height: 2%;
+    }
+  }
+.wmain{
+    position: relative;
+    z-index: 25px;
+    display:grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    background-color: rgba(78, 78, 78, 0.2);
+}
+.header {
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    color: #f1f1f1;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.content a{
+    text-decoration: none;
+    background-color: seashell;
+    height: 15%;
+    padding: 15px;
+    color:black;
+}
+.content a:hover{
+    letter-spacing: 6px;
+}
+.links{
+    top : 100px ;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.links img{
+    filter: invert(1);
+}
+.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.links ul li{
+    margin-right: 30px;
+}
+.links ul li:hover{
+    transform: scale(0.7);
+}
+/* Menu CSS */
+#sideMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(116, 97, 97);
+    transition: 0.5s;
+    padding-top: 60px;
+} 
+#sideMenu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f0f3ef;
+    display: block;
+    transition: 0.3s;
+} 
+#sideMenu a:hover {
+    color: #2f88c3;
+    background-color: white;
+}
+#main {
+    transition: margin-right 0.8s;
+    transition: margin-left 0.8s;
+    padding: 16px;
+}
