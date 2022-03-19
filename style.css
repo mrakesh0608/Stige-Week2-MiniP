@@ -19,7 +19,7 @@ body{
 }
 @media screen and (max-width: 300px) {
     #myVideo{
-        height: 20%;
+        height: 15%;
     }
   }
 .wmain{
