@@ -17,6 +17,12 @@ body{
     min-width: 100%; 
     min-height: 100%;
 }
+@media screen and (max-width: 300px) {
+    #myVideo{
+        min-width: 50%; 
+        min-height: 50%;
+    }
+  }
 .wmain{
     position: relative;
     z-index: 25px;
