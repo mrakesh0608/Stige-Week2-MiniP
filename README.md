@@ -1,5 +1,5 @@
 # Stige-Week2-MiniP
 
-https://mrakesh-backv.herokuapp.com/
+The Bio Lab. A website with a background video.
 
-
+Links : https://mrakesh0608.github.io/Stige-Week2-MiniP/ or https://mrakesh-backv.herokuapp.com/
